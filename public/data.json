@@ -1,0 +1,264 @@
+{
+    "project_logo": "./assets/logo/tgl-logo-notruman.png",
+    "project_favicon": "./assets/favicon.png",
+    "project_name": "THE GAMING LEAGUE",
+    "project_url": null,
+    "copyright_start_year": 2016,
+    "client_name": "The Gaming League, Truman State",
+    "client_url": null,
+    "creators": [
+        {
+            "name": "Ky Wu",
+            "url": "http://www.twitter.com/xkywu"
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#4934B6",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": null,
+        "max_width": null,
+        "titles": {
+            "library_title": "Visual and Brand Guide",
+            "pages_title": "Introduction",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css",
+            "./app/css/tgl.css"
+        ],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Introduction",
+        "pages": [
+            {
+                "name": "identity",
+                "title": "Identity",
+                "file": "./pages/intro.md"
+            },
+            {
+                "name": "test",
+                "title": "Mission",
+                "file": "./pages/mission.html"
+            },
+            {
+                "name": "values",
+                "title": "Values",
+                "file": "./pages/values.html"
+            },
+            {
+                "name": "mottos",
+                "title": "Mottos",
+                "file": "./pages/mottos.html"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "emblem",
+            "title": "Emblem",
+            "components": [
+                {
+                    "name": "regular",
+                    "title": "Regular",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "emblem"
+                },
+                {
+                    "name": "nologo",
+                    "title": "No Logo",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "emblem"
+                },
+                {
+                    "name": "black",
+                    "title": "Black",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "emblem"
+                },
+                {
+                    "name": "white",
+                    "title": "White",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    },
+                    "group": "emblem"
+                }
+            ]
+        },
+        {
+            "name": "color",
+            "title": "Colors",
+            "components": [
+                {
+                    "group": "color",
+                    "name": "solid",
+                    "title": "Solid Colors",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "name": "gradients",
+                    "title": "Gradients",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "color"
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "regular",
+                    "title": "Regular",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "light",
+                    "title": "Light",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "semibold",
+                    "title": "Semibold",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "stream",
+            "title": "Stream",
+            "components": [
+                {
+                    "group": "stream",
+                    "name": "starting",
+                    "title": "Starting Soon",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "stream",
+                    "name": "ending",
+                    "title": "Offline",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "overlays",
+            "title": "Overlays",
+            "components": [
+                {
+                    "group": "overlays",
+                    "name": "general",
+                    "title": "General",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "name": "streetfighter",
+                    "title": "Street Fighter",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "overlays"
+                },
+                {
+                    "name": "smash",
+                    "title": "Smash",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "overlays"
+                },
+                {
+                    "name": "bottom",
+                    "title": "Bottom Display",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "overlays"
+                },
+                {
+                    "group": "overlays",
+                    "name": "examples",
+                    "title": "Examples",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "overlays",
+                    "name": "background",
+                    "title": "Background",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "social",
+            "title": "Social",
+            "components": [
+                {
+                    "name": "panels",
+                    "title": "Twitch Panels",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "social"
+                },
+                {
+                    "name": "banner",
+                    "title": "Banner",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "social"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5"
+}
