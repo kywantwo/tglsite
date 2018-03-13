@@ -1,0 +1,50 @@
+@font-face { font-family: Barlow; font-weight: bold; src: url('/fonts/Barlow-Bold.woff2');}
+
+body{
+  font-family: barlow;
+  background-color: #202225 !important;
+  color: #FFFFFF !important;
+}
+
+h1{
+  font-weight: bold;
+  padding-bottom: 6rem;
+  font-size: 8rem;
+  padding-top: 12rem;
+}
+
+p{
+  font-weight: bold;
+  padding-bottom: 6rem;
+  font-size: 4rem;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 12rem;
+}
+
+#ky{
+  color: #EFBF15;
+}
+
+#esports{
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 760px){
+  #intro{
+    padding-left: 4rem;
+    padding-right: 18rem;
+  }
+
+@media only screen and (max-width: 760px){
+  h1{
+    font-size: 5rem;
+  }
+
+  p{
+    font-size: 2.75rem;
+  }
+}
